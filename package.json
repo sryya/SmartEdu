@@ -1,10 +1,10 @@
 {
   "name": "smartedu",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "��#\u0000 \u0000S\u0000m\u0000a\u0000r\u0000t\u0000E\u0000d\u0000u\u0000\r\u0000 \u0000",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/sryya/SmartEdu/issues"
   },
-  "homepage": "https://github.com/sryya/SmartEdu#readme"
+  "homepage": "https://github.com/sryya/SmartEdu#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
